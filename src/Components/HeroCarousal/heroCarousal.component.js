@@ -8,6 +8,8 @@ import "slick-carousel/slick/slick-theme.css";
 //Component
 import { NextArrow, PrevArrow } from "./arrows.component";
 
+import setting from "../../config/PremierCarousal";
+
 const HeroCarousal = () => {
     const settingLg = {
 
@@ -32,6 +34,7 @@ const HeroCarousal = () => {
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />
     };
+  
 
 
 const images = [

@@ -35,7 +35,7 @@ const EntertainmentCardSlider = () => {
         
         infinite: true,
         autoplay: false,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 4,
         InitialSlide:0
         
